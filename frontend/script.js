@@ -4,8 +4,8 @@ let lastForecast = {};
 
 async function loadForecast(pair) {
   try {
-    // Replace this URL with your Railway backend URL
-    const response = await fetch(`https://your-railway-app.up.railway.app/forecast?pair=${pair}`);
+    // Replace this URL with your Ra
+    const response = await fetch(otc-forecast-production.up.railway.app;
     const data = await response.json();
 
     function getClass(direction) {
