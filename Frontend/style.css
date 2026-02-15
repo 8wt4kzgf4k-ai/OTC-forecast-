@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  transition: background-color 0.5s;
+}
+
+h1 { color:#333; }
+
+#output {
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+.forecast-up { color: green; font-weight: bold; }
+.forecast-down { color: red; font-weight: bold; }
+.forecast-neutral { color: orange; font-weight: bold; }
+
+@keyframes flash {
+  0% { background-color: yellow; }
+  50% { background-color: transparent; }
+  100% { background-color: yellow; }
+}
+
+.flash {
+  animation: flash 15s ease-in-out;
+}
