@@ -1,0 +1,6 @@
+{
+  "build": {
+    "builder": "python",
+    "startCommand": "python backend/app.py"
+  }
+}
